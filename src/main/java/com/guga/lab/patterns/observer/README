@@ -1,0 +1,5 @@
+Sample of Observer pattern implementation.
+
+It was used only PUSH implementation, but it's possible notify without send information, let the observer access the
+data from the Subject in a PULL way. JDK provide an interface (Observer) and abstract (Observable) class  wich provide
+two options, PUSH or PULL.WZW
